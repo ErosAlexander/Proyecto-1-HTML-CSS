@@ -1,0 +1,38 @@
+/* Reset de márgenes, paddings y bordes */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Establecer un line-height base */
+body {
+    line-height: 1;
+}
+
+/* Eliminar decoraciones de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Eliminar subrayados y estilos predeterminados en enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegurar que las tablas no tengan espacio colapsado */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reiniciar imágenes para evitar comportamientos predeterminados */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
